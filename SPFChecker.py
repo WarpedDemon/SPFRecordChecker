@@ -3,7 +3,7 @@ from SPF2IP import SPF2IP
 Domains = []
 Success = []
 
-with open('pressidium-primary-domains.csv', newline='') as csvfile:
+with open('primary-domains.csv', newline='') as csvfile:
      domainreader = csv.reader(csvfile, delimiter=',', quotechar='|')
      for row in domainreader:
          #print(row[1])
